@@ -89,7 +89,7 @@ public class DrawingCollectionViewController: UICollectionViewController
     
     public override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
-        let drawingCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! DrawingCell
+        let drawingCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! drawingCell
     
         drawingCell.backgroundColor = .cyan
         drawingCell.drawingImage.image = creativeCS[indexPath.row]
