@@ -66,13 +66,13 @@
         <!--Data View Controller-->
         <scene sceneID="J1O-3P-p9q">
             <objects>
-                <tableViewController id="vrf-9D-r3W" customClass="DataViewController" customModule="DataProject" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="vrf-9D-r3W" customClass="DataViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ufl-3B-jWs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" rowHeight="138" id="WKU-kc-dg9" customClass="BucketItemCell" customModule="DataProject" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" rowHeight="138" id="WKU-kc-dg9" customClass="BucketItemCell" customModule="MegaProject" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="138"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WKU-kc-dg9" id="fp0-lZ-wbG">
@@ -146,7 +146,7 @@
         <!--Algorithm View Controller-->
         <scene sceneID="XvK-GQ-0Wy">
             <objects>
-                <viewController id="FOi-Sg-H24" customClass="AlgorithmViewController" customModule="AlgorithmZac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FOi-Sg-H24" customClass="AlgorithmViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Pq-XZ-jyP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -391,7 +391,7 @@
         <!--Drawing View Controller-->
         <scene sceneID="fMk-U2-rRH">
             <objects>
-                <viewController id="j8I-d8-b1a" customClass="DrawingViewController" customModule="DrawingProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="j8I-d8-b1a" customClass="DrawingViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cgk-35-dzh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -406,7 +406,7 @@
                                     <segue destination="pio-HF-fLx" kind="show" id="Vni-hS-Ozk"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M7I-52-F2v" customClass="DrawingView" customModule="DrawingProject" customModuleProvider="target">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M7I-52-F2v" customClass="DrawingView" customModule="MegaProject" customModuleProvider="target">
                                 <rect key="frame" x="44" y="44" width="288" height="577"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.77598769430000003" blue="0.7128834208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -426,7 +426,7 @@
         <!--Drawing Collection View Controller-->
         <scene sceneID="b5p-RP-4U7">
             <objects>
-                <collectionViewController id="pio-HF-fLx" customClass="DrawingCollectionViewController" customModule="DrawingProject" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="pio-HF-fLx" customClass="DrawingCollectionViewController" customModule="MegaProject" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="9PB-79-NX9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,7 +438,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="6Ia-Uz-7Bm" customClass="DrawingCell" customModule="DrawingProject" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="6Ia-Uz-7Bm" customClass="DrawingCell" customModule="MegaProject" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -475,8 +475,72 @@
             </objects>
             <point key="canvasLocation" x="423" y="-897"/>
         </scene>
+        <!--Impact View Controller-->
+        <scene sceneID="trB-hQ-OOR">
+            <objects>
+                <viewController id="nJ8-Al-Y5g" customClass="ImpactViewController" customModule="GlobalImpactApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ujk-Tk-Bbk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UK2-ni-P43">
+                                <rect key="frame" x="0.0" y="20" width="375" height="284"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="284" id="MCG-Yc-rVb"/>
+                                </constraints>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HTI-hz-ijK">
+                                <rect key="frame" x="0.0" y="302" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="hFJ-Bh-xn7"/>
+                                </constraints>
+                                <state key="normal" title="Animate to Impact Area"/>
+                                <connections>
+                                    <action selector="Button:" destination="nJ8-Al-Y5g" eventType="touchUpInside" id="55G-LO-kWO"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="41O-tL-BiJ">
+                                <rect key="frame" x="0.0" y="323" width="375" height="316"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Voter turnout" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1m-Kq-5dC">
+                                <rect key="frame" x="0.0" y="637" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MEF-uz-Am0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UK2-ni-P43" firstAttribute="trailing" secondItem="HTI-hz-ijK" secondAttribute="trailing" id="3xt-lV-vio"/>
+                            <constraint firstItem="HTI-hz-ijK" firstAttribute="leading" secondItem="41O-tL-BiJ" secondAttribute="leading" id="4lk-d4-Rye"/>
+                            <constraint firstItem="41O-tL-BiJ" firstAttribute="leading" secondItem="q1m-Kq-5dC" secondAttribute="leading" id="9l5-SY-6DN"/>
+                            <constraint firstItem="MXF-X4-vBl" firstAttribute="bottom" secondItem="41O-tL-BiJ" secondAttribute="bottom" constant="28" id="CHH-Ul-ZTR"/>
+                            <constraint firstItem="UK2-ni-P43" firstAttribute="leading" secondItem="Ujk-Tk-Bbk" secondAttribute="leading" id="Ew5-oo-9Ni"/>
+                            <constraint firstAttribute="trailing" secondItem="UK2-ni-P43" secondAttribute="trailing" id="Nd5-Aa-baC"/>
+                            <constraint firstItem="41O-tL-BiJ" firstAttribute="top" secondItem="UK2-ni-P43" secondAttribute="bottom" constant="19" id="QBu-0B-zLB"/>
+                            <constraint firstItem="UK2-ni-P43" firstAttribute="leading" secondItem="HTI-hz-ijK" secondAttribute="leading" id="SKf-4c-QvB"/>
+                            <constraint firstItem="HTI-hz-ijK" firstAttribute="trailing" secondItem="41O-tL-BiJ" secondAttribute="trailing" id="f8P-K2-Hha"/>
+                            <constraint firstItem="UK2-ni-P43" firstAttribute="top" secondItem="MXF-X4-vBl" secondAttribute="top" id="h71-FH-fqj"/>
+                            <constraint firstItem="41O-tL-BiJ" firstAttribute="trailing" secondItem="q1m-Kq-5dC" secondAttribute="trailing" id="mWW-T6-25u"/>
+                            <constraint firstItem="HTI-hz-ijK" firstAttribute="top" secondItem="MXF-X4-vBl" secondAttribute="top" constant="282" id="vUn-mH-f3t"/>
+                            <constraint firstItem="q1m-Kq-5dC" firstAttribute="bottom" secondItem="MXF-X4-vBl" secondAttribute="bottom" id="xBQ-Df-CIp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MXF-X4-vBl"/>
+                    </view>
+                    <connections>
+                        <outlet property="MapView" destination="UK2-ni-P43" id="4rZ-2m-elh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vwz-A4-kxN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1214" y="999"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Image" width="16" height="16"/>
         <image name="binary" width="1200" height="800"/>
         <image name="block" width="538" height="312"/>
         <image name="byte" width="313" height="308"/>
